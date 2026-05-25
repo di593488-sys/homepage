@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif;
+    background-color: #f4efe6;
+    color: #2b2a26;
+}
+
+.paper {
+    width: 88%;
+    max-width: 1050px;
+    margin: 34px auto;
+    padding: 28px;
+    background-color: #fffdf7;
+    border: 2px solid #2f3a31;
+    box-shadow: 12px 12px 0 #c9b79c;
+}
+
+.profile-header {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 28px;
+    align-items: stretch;
+    border-bottom: 4px double #2f3a31;
+    padding-bottom: 24px;
+}
+
+.photo-box {
+    background-color: #194d3f;
+    padding: 18px;
+    text-align: center;
+    color: #fff7d6;
+}
+
+.profile-photo {
+    width: 190px;
+    height: 220px;
+    object-fit: cover;
+    border: 5px solid #fff7d6;
+}
+
+.photo-caption {
+    margin: 12px 0 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.title-box {
+    background-color: #e8f0dc;
+    padding: 34px;
+    border-left: 12px solid #c76f2e;
+}
+
+.label-text {
+    display: inline-block;
+    margin: 0 0 18px;
+    padding: 7px 12px;
+    background-color: #2f3a31;
+    color: #fff7d6;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    color: #194d3f;
+    font-size: 42px;
+}
+
+.italic-sentence {
+    margin-top: 18px;
+    color: #8f4b22;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.content-layout {
+    display: grid;
+    grid-template-columns: 36% 1fr;
+    gap: 24px;
+    margin-top: 26px;
+}
+
+.left-note {
+    padding: 24px;
+    background-color: #2f3a31;
+    color: white;
+}
+
+.left-note h2 {
+    color: #f3c969;
+    font-size: 26px;
+    margin-top: 0;
+}
+
+.big-message {
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.orange-note {
+    background-color: #c76f2e;
+    color: #fffdf7;
+    padding: 14px;
+    line-height: 1.6;
+}
+
+.info-section {
+    padding: 22px;
+    background-color: #f7efe0;
+    border: 2px solid #d0b98d;
+}
+
+.info-section h2 {
+    margin-top: 0;
+    color: #8f4b22;
+    font-size: 28px;
+}
+
+.intro-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+    background-color: white;
+}
+
+.intro-table th {
+    background-color: #194d3f;
+    color: #fff7d6;
+    padding: 13px;
+}
+
+.intro-table td {
+    border: 1px solid #b9aa8b;
+    padding: 13px;
+}
+
+.intro-table tr:nth-child(odd) td {
+    background-color: #fff7d6;
+}
+
+.intro-table tr:nth-child(even) td {
+    background-color: #eef4e6;
+}
+
+.goal-strip {
+    margin-top: 24px;
+    padding: 22px 26px;
+    background-color: #fff7d6;
+    border-left: 14px solid #194d3f;
+}
+
+.goal-strip h2 {
+    margin-top: 0;
+    color: #194d3f;
+    font-size: 27px;
+}
+
+.goal-strip p {
+    color: #3d3328;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.search-footer {
+    margin-top: 24px;
+    padding: 26px;
+    text-align: center;
+    background-color: #194d3f;
+    color: white;
+}
+
+.search-footer h2 {
+    margin-top: 0;
+    color: #f3c969;
+    font-size: 26px;
+}
+
+.search-footer p {
+    color: #fffdf7;
+    font-size: 16px;
+}
+
+.search-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.search-logo {
+    width: 155px;
+    height: 74px;
+    object-fit: contain;
+    padding: 11px;
+    background-color: #fffdf7;
+    border: 3px solid #f3c969;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.search-logo:hover {
+    transform: translateY(-5px);
+    background-color: #fff7d6;
+}
+
+
+.youtube-section {
+    margin-top: 24px;
+    padding: 26px;
+    background-color: #e8f0dc;
+    border: 2px solid #194d3f;
+    display: grid;
+    grid-template-columns: 38% 1fr;
+    gap: 24px;
+    align-items: center;
+}
+
+.youtube-section h2 {
+    margin: 10px 0 12px;
+    color: #194d3f;
+    font-size: 28px;
+}
+
+.youtube-section p {
+    color: #3d3328;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.video-label {
+    background-color: #8f4b22;
+}
+
+.video-box {
+    background-color: #2f3a31;
+    padding: 12px;
+    border: 4px solid #c76f2e;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    display: block;
+}
+
+@media (max-width: 800px) {
+    .profile-header,
+    .content-layout,
+    .youtube-section {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+}
